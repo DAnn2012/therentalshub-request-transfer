@@ -84,7 +84,7 @@ add_action('admin_init', 'trhrt_settings_init');
 
 function trhrt_section_req_form_settings_callback($args)
 {
-   echo '<p id="'.esc_attr($args['id']).'">'.esc_html_e('Setup request form options and connection to your fleet management account', 'therentalshub-request-transfer').'.</p>';
+   echo '<p id="'.esc_attr($args['id']).'">'.esc_html__('Setup request form options and connection to your fleet management account', 'therentalshub-request-transfer').'.</p>';
 }
 
 function trhrt_send_email_cb($args)
