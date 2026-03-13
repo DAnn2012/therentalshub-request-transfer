@@ -3,7 +3,7 @@
  * Plugin Name: TheRentalsHub Request Transfer
  * Plugin URI: https://www.therentalshub.com
  * Description: Capture transfer requests
- * Version: 1.0.5
+ * Version: 1.0.6
  * Requires PHP: 8.0
  * Author: The Rentals Hub
  * License: MIT
