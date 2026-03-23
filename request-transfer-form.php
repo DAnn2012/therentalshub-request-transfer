@@ -138,8 +138,8 @@
 
             <div class="row mb-4">
                 <div class="col">
-                    <label for="trhrft_phone"><?=__('Phone number', 'therentalshub-request-transfer');?></label>
-                    <input type="text" class="trhtr-input-control" name="trhrft_phone" id="trhrft_phone" autocomplete="tel"/>
+                    <label for="trhrft_phone"><?=__('Phone number', 'therentalshub-request-transfer');?> <span class="trhtr-required">*</span></label>
+                    <input type="text" class="trhtr-input-control" name="trhrft_phone" id="trhrft_phone" autocomplete="tel" required/>
                 </div>
             </div>
 
